@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="plugins/jquery/jQuery-2.1.4.min.js"></script>
+	<script src="js/ejer3.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+		
+<body bgcolor ="#A9D0F5">
+
+	<img src="imagenes/collage.webp" width="200px" height="200px">
+	<center>
+	
+	<h1>Formulario de Regristro</h1>
+	<form>
+		<table height="40%" width="20%"  border="1px" cellpadding="0" cellspacing="0">
+		
+	        <tr><td><label for="nombre">Nombre:</label></tr></td>
+	        <tr><td><input type="text" name="nombre"></tr></td>
+	        <tr><td><label for="apellido">Apellido:</label></tr></td>
+	        <tr><td><input type="text" name="apellido"></tr></td>
+	        <tr><td><label for="datemin">Fecha de Nac:</label></tr></td>
+	        <tr><td><input type="date" name="fecha"></tr></td>
+	        <tr><td><label for="image">Foto de Perfil:</td></tr>
+	        <tr><td><input type="file" selec="imagen/* "image="imagen" ></td></tr>
+	        <tr><td><label for="email">Correo Electronico:</td></tr>
+	        <tr><td><input type="text" name="email" placeholder="examplo@.com" required></td></tr>
+	        <tr><td><label for="pwd">Contraseña:</label></tr></td>
+	        <tr><td><input type="password" id="pwd" name="pwd"></tr></td>
+	        <tr><td>Género:
+	        <input type="radio" id="mujer" name="genero" value="Mujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label></tr></td>
+            <tr><td><label for="favcolor">Color Favorito:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"></tr></td>
+            <tr><td><label for="paises">Pais de Origen<label>
+            <select id="paises" name="paises">
+            	<option>Honduras</option>
+            	<option>Nicaragua</option>
+            	<option>Costa Rica</option>
+            	<option>El Salvador</option>
+            	<option>Panama</option>
+            	<option>Guatemala</option></tr></td>
+            </select>
+	        <tr><td><input type="image" src="imagenes/bota.jpg" alt="Submit" width="70" height="70">
+	        	click aqui
+            <input type="reset"></tr></td>
+			</center>	
+		</table>
+	</form>
+
+</body>
+</html>
